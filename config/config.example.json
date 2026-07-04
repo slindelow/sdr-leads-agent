@@ -1,0 +1,37 @@
+{
+  "company_name": "[Company]",
+  "product_names": ["[Product]"],
+  "calendar_link": "{{COMPANY_CALENDAR_LINK}}",
+  "sender_name": "The [Company] Team",
+  "sender_email": "{{GMAIL_SENDER_EMAIL}}",
+  "sla_minutes": {
+    "DEMO_REQUEST": 30,
+    "INBOUND_TRIAL_SIGNUP": 30,
+    "ENTERPRISE_INBOUND": 30,
+    "REFERRAL_INBOUND": 45,
+    "INTERESTED_REPLY_UNACTIONED": 60
+  },
+  "geographies": ["AU", "UK", "US"],
+  "compliance_map": {
+    "AU": ["Privacy Act 1988", "My Health Record Act"],
+    "UK": ["NHS IG Toolkit", "UK GDPR"],
+    "US": ["HIPAA", "BAA required"]
+  },
+  "ehr_map": {
+    "AU_gp": "Best Practice or Medical Director",
+    "AU_specialist": "Genie Solutions",
+    "UK": "EMIS or SystmOne",
+    "US_enterprise": "Epic or Cerner",
+    "US_small": "Athenahealth or eClinicalWorks"
+  },
+  "icp": {
+    "primary": ["family_medicine_gp", "medical_specialist", "mental_health"],
+    "secondary": ["nurse_np", "allied_health", "practice_manager"],
+    "enterprise": ["enterprise_health_system"]
+  },
+  "slack": {
+    "alert_channel": "#speed-to-lead",
+    "bot_channel": "#sdr-assistant",
+    "pre_call_minutes_before": 15
+  }
+}

@@ -1,0 +1,42 @@
+# Environment
+.env
+.env.local
+
+# OAuth credentials
+.credentials/
+credentials.json
+token.json
+gmail_token.json
+
+# Intermediate files (regenerated each run)
+.tmp/
+
+# Pipeline outputs (contain real lead data after live runs)
+outputs/triage_queue.json
+
+# Claude internal files
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Company-specific filled-in files (keep local, never commit) — copy the .example versions
+config/config.json
+references/brand-context.md
+references/voice-guide.md
+outputs/
